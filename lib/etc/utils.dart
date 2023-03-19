@@ -16,7 +16,7 @@ Future<void> showOkDialog(BuildContext context, String title, String content) as
         ),
         actions: [
           TextButton(
-            child: const Text('OK'),
+            child: const Text('Ok'),
             onPressed: () {
               Navigator.of(context).pop();
             },
