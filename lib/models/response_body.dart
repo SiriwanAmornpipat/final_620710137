@@ -12,7 +12,7 @@ class ResponseBody {
   factory ResponseBody.fromJson(Map<String, dynamic> json) {
     return ResponseBody(
       status: json['status'],
-      message: json['message'],
+      message: json['messagess'],
       data: json['data'],
     );
   }
