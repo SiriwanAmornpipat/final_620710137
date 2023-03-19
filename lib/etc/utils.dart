@@ -12,6 +12,7 @@ Future<void> showOkDialog(BuildContext context, String title, String content) as
             children: [
               Text(content, style: Theme.of(context).textTheme.bodySmall!.copyWith(color: Colors.black87)),
             ],
+
           ),
         ),
         actions: [
